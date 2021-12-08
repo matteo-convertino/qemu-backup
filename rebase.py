@@ -60,4 +60,4 @@ class Rebase(Backup):
                 image
             )
             print(cmd_remove + '\n')
-            self.run_command(cmd_rebase, False)
+            self.run_command(cmd_remove, False)
